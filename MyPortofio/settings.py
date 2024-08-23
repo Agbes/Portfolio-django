@@ -24,10 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-xkmwhn_mb6k-s@ibb56^r3g%j+-0fs#86rqvf@z^zs(jz!mhw('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
-ALLOWED_HOSTS = ["https://gilopro1.pythonanywhere.com/"]
+ALLOWED_HOSTS = []
 
 
 # Application definition
